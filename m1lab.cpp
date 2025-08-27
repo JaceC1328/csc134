@@ -17,7 +17,7 @@ string item_name = "tire"; // replace with your item
 int num_items = 10;
 double cost_per = 80.25;
 
-//give oue slaes pitch
+//give oue sales pitch
 cout << "welcome to the " << item_name << " store!" << endl;
 cout << "Each " << item_name << " is $" <<cost_per << endl;
 cout << "We have " << num_items << " total." << "\n";
