@@ -4,7 +4,6 @@ jacec
 9/3/25
 purpose: The "tire" sales program with user input
 */
-
 // magic words
 #include <iostream>
 using namespace std;
@@ -33,7 +32,7 @@ int main() {
     total_cost = amount_purchased * cost_per;
     //TODO
     //output the answer
-    cout << "you are buying" << amount_purchased << " " << item << endl;
+    cout << "you are buying " << amount_purchased << " " << item << endl;
     cout << "the total is: $" << total_cost << endl;
     cout << "thank you for shopping with us." << endl;
     return 0;
