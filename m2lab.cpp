@@ -39,5 +39,6 @@ int main() {
     cout << "Customer Price: $" << charge_to_customer << endl;
     cout << "Cost to Build : $" << cost_to_make << endl;
     cout << "Profit     : $" << profit << endl;
+    
     return 0; // no errors
 }
