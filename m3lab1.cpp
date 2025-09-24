@@ -11,6 +11,7 @@ using namespace std;
 void gameroom();
 void door1();
 void door2();
+void gameroom2();
 void door3();
 void door4();
 void door5();
@@ -41,13 +42,36 @@ int choice;
 }
 void gameroom()
 {
-    cout << "not yet written" << endl;
+    cout << "now you need to pick between the two doors, one of these doors will let you move on to the next area while the other will kill you" << endl;
+    cout << "if you would like to go through door one choose 1, if you would like to go through door two choose door 2";
+
+    int choice;
+        cin >> choice;
+
+        if (choice == 1)
+{
+    cout << "you have chosen door 1 please proceed inside" << endl;
+   door1();
 }
+if (choice == 2) 
+{
+    cout << "you have chosen the correct door congratulations" << endl;
+    door2();
+
+}
+}
+
 void door1()
 {
-    cout << "not yet written" << endl;
+    cout << "you walk into the room and see a tiger who kills you" << endl;
+    GameOver();
 }
 void door2()
+{
+    cout << "congratulations you have chosen the correct door and survived the first round"  << endl;
+    gameroom2();
+}
+void gameroom2()
 {
     cout << "not yet written" << endl;
 }
